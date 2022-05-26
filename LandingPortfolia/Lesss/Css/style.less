@@ -1,0 +1,25 @@
+//compress:false
+
+@import "vars";
+@import "mixins";
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: @primary;
+}
+
+html, body {
+    font-size: @sz;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+//Blocks
+
+@import "blocks/title";
+@import "blocks/btn";
